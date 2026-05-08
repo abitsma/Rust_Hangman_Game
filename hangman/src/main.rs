@@ -6,7 +6,7 @@ fn main() {
     //all of this is getting the game set up to play
 
     let mut rng = rand::rng();
-    let hang_list = vec!["Guitar", "Nerds", "Prophet", "String", "Rust", "Coding", "BYUI", "Dingus"];
+    let hang_list = vec!["Guitar", "Nerds", "Prophet", "String", "Rust", "Coding", "BYUI", "Dingus", "Hangman"];
     let word = hang_list.choose(&mut rng).expect("hang_list is empty");
     //println!("Word is: {}", word)
 
