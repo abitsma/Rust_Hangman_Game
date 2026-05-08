@@ -1,8 +1,8 @@
 # CSE 310 - Sprint Time Log
 
-Name:
+Name: Austin Bitsoi
 
-Sprint #:
+Sprint #: 1
 
 ## Instructions
 
@@ -24,22 +24,27 @@ The expected minimum amount of time each Sprint for each category is as follows:
 
 ## Time Log
 
-|Date      |Start Time|Category|Description                                 |Total Minutes|
+|Date      |Start Time|Category|Description                                 | Total Hours |
 |----------|----------|:------:|--------------------------------------------|:-----------:|
-|          |          |        |                                            |             |
-|          |          |        |                                            |             |
-|          |          |        |                                            |             |
-|          |          |        |                                            |             |
-|          |          |        |                                            |             |
-|          |          |        |                                            |             |
-
+|5/7/26    |          |IM      |Fully functional hangmane game              |2            |
+|5/5/26    |          |IM      |Finished Rust basics and continued project  |3            |
+|5/4/26    |          |IM      |Learned Rust basics and started project     |3            |
+|4/24/26   |          |IM      |Got github working and made hello world     |2            |
+|4/28/26   |          |MTG     |Class meeting                               |1            |
+|4/30/36   |          |MTG     |Class meeting                               |1            |
+|5/5/26    |          |MTG     |Class meeting                               |1            |
+|5/7/26    |          |MTG     |Class meeting                               |1            |
+|5/7/26    |          |TP      |Github Project and Repo work - Python work  |1            |
+|5/2/26    |          |TP      |Github Repo and Project work                |1            |
+|5/1/26    |          |TP      |Getting Github made                         |1            |
+|4/30/26   |          |TP      |Research                                    |1            |
 _Note: Add more rows as needed._
 
 ## Sprint Totals
 
 |Categroy                       |Total Time (Hours:Minutes)|
 |-------------------------------|:------------------------:|
-|IM - Individual Module         |                          |
-|TP - Team Project              |                          |
-|MTG - Class Meetings           |                          |
-|**TOTAL**                      |                          |
+|IM - Individual Module         |10:00                     |
+|TP - Team Project              |4:00                      |
+|MTG - Class Meetings           |4:00                      |
+|**TOTAL**                      |18:00                     |

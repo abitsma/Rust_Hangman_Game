@@ -18,8 +18,7 @@ Instructions for using the software:
 
 To recreate the development environment, you need the following software and/or libraries with the specified versions:
 
-* First thing here
-*
+* You need rand 9.0 or higher
 *
 
 ## Useful Websites to Learn More
@@ -27,13 +26,9 @@ To recreate the development environment, you need the following software and/or 
 I found these websites useful in developing this software:
 
 * [Website Title](Link)
-*
-*
 
 ## Future Work
 
 The following items I plan to fix, improve, and/or add to this project in the future:
 
-* [ ] First thing here
-* [ ]
-* [ ]
+* [ ] I might add a lil' askii guy that gets hung as you keep getting guesses wrong
