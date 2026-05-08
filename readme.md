@@ -1,20 +1,18 @@
 # Project Title (Update)
 
-Add a description of your project here.
-
+It's hangman built in rust. There is another "hello_world" folder that isn't necessary to see, but it shows me learning Rust. 
 ## Instructions for Build and Use
 
 Steps to build and/or run the software:
 
-1. First step here
-2.
-3.
+1. Download files 
+2. Set cd to hangman folder
+3. Type "cargo build" in terminal
+4. Type "cargo run" in terminal
 
 Instructions for using the software:
 
-1. First step here
-2.
-3.
+1. Type a letter to guess. You have 6 guesses. 
 
 ## Development Environment
 

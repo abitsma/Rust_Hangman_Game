@@ -6,7 +6,7 @@ fn main() {
     //all of this is getting the game set up to play
 
     let mut rng = rand::rng();
-    let hang_list = vec!["Guitar", "Nerds", "Prophet", "String", "Rust", "Coding", "BYUI"];
+    let hang_list = vec!["Guitar", "Nerds", "Prophet", "String", "Rust", "Coding", "BYUI", "Dingus"];
     let word = hang_list.choose(&mut rng).expect("hang_list is empty");
     //println!("Word is: {}", word)
 
@@ -55,7 +55,7 @@ fn main() {
         return true;
     }
 
-    let mut chances = 5;
+    let mut chances = 6;
 
     let mut marker = true;
 
@@ -71,9 +71,10 @@ fn main() {
 
     while over == false {
         marker = true;
+        println!("You have {} guesses left.", chances);
         display(&formed);
         let mut guess = get_guess();
-        println!("You entered {}", guess);
+        //println!("You entered {}", guess);
 
         for lett in &mut formed.letters {
             if guess == lett.letter.to_lowercase().next().unwrap() {
