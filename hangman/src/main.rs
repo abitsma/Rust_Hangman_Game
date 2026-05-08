@@ -71,11 +71,18 @@ fn main() {
 
     while over == false {
         marker = true;
-        println!("You have {} guesses left.", chances);
+        match chances {
+            6 => println!("You have 6 chances left - no wrong guesses yet!"),
+            5 => println!("You have 5 chances left - got one wrong, but you'll be fine."),
+            4 => println!("You have 4 chances left - better start guessing right!"),
+            3 => println!("You have 3 chances left - don't mess this up!"),
+            2 => println!("You have 2 chances left - scared you don't know the word?"),
+            1 => println!("You have 1 chance left - you might be cooked..."),
+            _ => println!("")
+        }
         display(&formed);
         let mut guess = get_guess();
         //println!("You entered {}", guess);
-
         for lett in &mut formed.letters {
             if guess == lett.letter.to_lowercase().next().unwrap() {
                 lett.guessed = true;
